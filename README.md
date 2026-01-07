@@ -133,3 +133,78 @@ This task was implemented as shown in the image below.
 ![](./img/12-search-package.png)
 
 ## 3. Linux File Management
+
+1. Create a directory `testdir` using `mkdir testdir` .
+
+This task was implemented as shown in the image below.
+![](./img/3-001-mkdir.png)
+
+2. Create an empty file `example.txt` using `touch` .
+
+This task was implemented as shown in the image below.
+![](./img/3-002-touch.png)
+
+3. Write content into the file using `echo "Hello Linux" > example.txt` .
+
+4. Append new content using `echo "Learning Devops" >> example.txt` .
+
+This task was implemented as shown in the image below.
+![](./img/3-004-append.png)
+
+5. View the file contents using `cat example.txt` .
+
+This task was implemented as shown in the image below.
+![](./img/3-005-cat.png)
+
+6. Create a nested directory with `mkdir -p logs/archive` .
+
+This task was implemented as shown in the image below.
+![](./img/3-006-nested.png)
+
+7. Copy a file into another location using `cp example.txt logs/` .
+
+This task was implemented as shown in the image below.
+![](./img/3-007-cp.png)
+
+8. Rename the file with `mv example.txt example_renamed.txt` .
+
+This task was implemented as shown in the image below.
+![](./img/3-008-rename.png)
+
+9. Remove a file using `rm example_renamed.txt` .
+
+This task was implemented as shown in the image below.
+![](./img/3-009-rm.png)
+
+10. Remove an empty directory using `rmdir emptydir` .
+
+This task was implemented as shown in the image below.
+![](./img/3-010-rmdir.png)
+
+11. Use `head` and `tail` to preview the top/bottom of a file.
+
+This task was implemented as shown in the images below.
+![](./img/3-011a-head.png)
+
+![](./img/3-011b-tail.png)
+
+12. Use `stat example.txt` to check metadata (permission, size, etc.).
+
+This task was implemented as shown in the image below.
+![](./img/3-012-stat.png)
+
+13. Count number of lines in the file using `wc -l example.txt` .
+
+This task was implemented as shown in the image below.
+![](./img/3-013-count.png)
+
+14. Create multiple files in one command: `touch file{1..5}.log` .
+
+This task was implemented as shown in the image below.
+![](./img/3-014-multiple.png)
+
+15. Use `ls -lh` to display human-readable file sizes.
+
+This task was implemented as shown in the image below.
+![](./img/3-015-human-readable.png)
+
