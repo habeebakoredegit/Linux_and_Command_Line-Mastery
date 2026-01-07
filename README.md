@@ -366,3 +366,98 @@ This task was implemented as shown in the image below.
 This task was implemented as shown in the image below.
 ![](./img/5-015-time.png)
 
+
+## Linux Process Management
+
+1. List all processes using `ps aux`.
+
+This task was implemented as shown in the image below.
+![](./img/6-001-list.png)
+
+2. Display top CPU-consuming processes using `top`.
+
+This task was implemented as shown in the image below.
+![](./img/6-002-top.png)
+
+3. Find PID of Nginx (`pidof nginx` or `ps aux | grep nginx`).
+
+This task was implemented as shown in the image below.
+![](./img/6-003-pidof.png)
+
+4. Kill a process safely using `kill <pid>`.
+
+This task was implemented as shown in the image below.
+![](./img/6-004-kill.png)
+
+5. Use `killall nginx` to stop multiple instances.
+
+This task was implemented as shown in the image below.
+![](./img/6-005-killall.png)
+
+6. Restart Nginx with `sudo systemctl restart nginx`.
+
+This task was implemented as shown in the image below.
+![](./img/6-006-restart.png)
+
+7. Monitor system load using `uptime`.
+
+This task was implemented as shown in the image below.
+![](./img/6-007-uptime.png)
+
+8. View disk usage using `df -h`.
+
+This task was implemented as shown in the image below.
+![](./img/6-008-disk-usage.png)
+
+9. Check directory size using `du -sh /home/labuser`.
+
+This task was implemented as shown in the image below.
+![](./img/6-009-dir-size.png)
+
+10. Display memory usage using `free -m`.
+
+This task was implemented as shown in the image below.
+![](./img/6-010-mem-use.png)
+
+11. Display CPU information using `lscpu`.
+
+This task was implemented as shown in the image below.
+![](./img/6-011-cpu-info.png)
+
+12. Show system uptime and kernel version (`uname -r && uptime`).
+
+This task was implemented as shown in the image below.
+![](./img/6-012-sys-uptime.png)
+
+13. Monitor running services (`systemctl list-units --type=service | grep running`).
+
+This task was implemented as shown in the image below.
+![](./img/6-013-run-serv.png)
+
+14. Create a background process using `sleep 60 &` and list it.
+
+This task was implemented as shown in the image below.
+![](./img/6-014-run-serv.png)
+
+15. Use `jobs` and `fg` to manage background processes.
+
+This task was implemented as shown in the image below.
+![](./img/6-015-job-fg.png)
+
+16. Use `top` → press `k` to kill a process interactively.
+
+This task was implemented as shown in the image below.
+![](./img/6-016-top-kill.png)
+
+17. Log system information output to a file for review.
+
+This task was implemented as shown in the image below.
+![](./img/6-017-log.png)
+
+18. Use `htop` (if installed) to explore interactive monitoring.
+
+This task was implemented as shown in the image below.
+![](./img/6-018-install-htop.png)
+
+![](./img/6-018-htop.png)
+
