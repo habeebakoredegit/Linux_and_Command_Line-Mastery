@@ -208,3 +208,83 @@ This task was implemented as shown in the image below.
 This task was implemented as shown in the image below.
 ![](./img/3-015-human-readable.png)
 
+
+## 4. Linux File Ownership & Permissions
+
+1. View current file permissions using `ls -l example.txt` .
+
+This task was implemented as shown in the image below.
+![](./img/4-001-permission.png)
+
+2. Change permissions to `644` using `chmod 644 example.txt`.
+
+This task was implemented as shown in the image below.
+![](./img/4-002-change-permission.png)
+
+3. Add execute permission using symbolic mode (`chmod u+x example.txt`).
+
+This task was implemented as shown in the image below.
+![](./img/4-003-add-exe.png)
+
+4. Remove group write permission (`chmod g-w example.txt`).
+
+This task was implemented as shown in the image below.
+![](./img/4-004-rm-perm.png)
+
+5. Change file owner to current user using `sudo chown labuser example.txt`.
+
+This task was implemented as shown in the image below.
+![](./img/4-005-change-owner.png)
+
+6. Change file group using `sudo chgrp labuser example.txt`.
+
+This task was implemented as shown in the image below.
+![](./img/4-006-change-grp.png)
+
+7. Set recursive permissions on a directory (`chmod -R 755 testdir`).
+
+This task was implemented as shown in the image below.
+![](./img/4-007-rec-perm.png)
+
+8. Verify permissions with `stat example.txt`.
+
+This task was implemented as shown in the image below.
+![](./img/4-008-verify-perm.png)
+
+9. Set default permissions using `umask` and test file creation.
+
+This task was implemented as shown in the image below.
+![](./img/4-009-umask.png)
+
+10. Create a shared directory for group collaboration.
+
+This task was implemented as shown in the image below.
+![](./img/4-010-shared-dir.png)
+
+11. Assign sticky bit to `/tmp/shared` and test deletion rights.
+
+This task was implemented as shown in the image below.
+![](./img/4-011a-stickybit.png)
+
+![](./img/4-011b-test-del.png)
+
+12. Assign SGID bit to `/usr/local/scripts` and create a file inside it.
+
+This task was implemented as shown in the image below.
+![](./img/4-012-sgid.png)
+
+13. Change file ownership to another user and verify (`sudo chown root example.txt`).
+
+This task was implemented as shown in the image below.
+![](./img/4-013-chown.png)
+
+14. Compare numeric vs symbolic permissions (`chmod 777` vs `chmod ugo+rwx`).
+
+This task was implemented as shown in the image below.
+![](./img/4-014-compare-perm.png)
+
+15. Explore permission inheritance in subdirectories.
+
+This task was implemented as shown in the image below.
+![](./img/4-015-perm-inher.png)
+
