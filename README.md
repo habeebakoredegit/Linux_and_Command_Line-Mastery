@@ -288,3 +288,81 @@ This task was implemented as shown in the image below.
 This task was implemented as shown in the image below.
 ![](./img/4-015-perm-inher.png)
 
+
+## 5. Linux Input/Output Redirection & Commands Chaining
+
+1. Redirect command output to a file (`ls > list.txt`).
+
+This task was implemented as shown in the image below.
+![](./img/5-001-redirect.png)
+
+2. Append new output to same file (`ls /etc >> list.txt`).
+
+This task was implemented as shown in the image below.
+![](./img/5-002-append.png)
+
+3. Redirect standard error (`ls /noexist 2> errors.txt`).
+
+This task was implemented as shown in the image below.
+![](./img/5-003-stderror.png)
+
+4. Combine stdout and stderr (`ls /etc /noexist &> all_output.txt`).
+
+This task was implemented as shown in the image below.
+![](./img/5-004-combine.png)
+
+5. Filter file contents using `grep "Linux" example.txt`.
+
+This task was implemented as shown in the image below.
+![](./img/5-005-grep.png)
+
+6. Pipe multiple commands: `cat example.txt | grep Linux | wc -l`.
+
+This task was implemented as shown in the image below.
+![](./img/5-006-pipe.png)
+
+7. Use `sort` and `uniq` to list unique words.
+
+This task was implemented as shown in the image below.
+![](./img/5-007-sort-uniq.png)
+
+8. Use `cut` to extract specific columns from `/etc/passwd`.
+
+This task was implemented as shown in the image below.
+![](./img/5-008-cut.png)
+
+9. Use `awk '{print $1}'` to print first column of `/etc/passwd`.
+
+This task was implemented as shown in the image below.
+![](./img/5-009-awk.png)
+
+10. Use `sed` to replace a word in a file.
+
+This task was implemented as shown in the image below.
+![](./img/5-010-sed.png)
+
+11. Count occurrences of a keyword (`grep -o "root" /etc/passwd | wc -l`).
+
+This task was implemented as shown in the image below.
+![](./img/5-011-count.png)
+
+12. Redirect input from a file (`cat < example.txt`).
+
+This task was implemented as shown in the image below.
+![](./img/5-012-cat.png)
+
+13. Use pipelines to combine multiple utilities.
+
+This task was implemented as shown in the image below.
+![](./img/5-013-pipe.png)
+
+14. Test output chaining with logical operators (`||`, `&&`).
+
+This task was implemented as shown in the image below.
+![](./img/5-014-chain.png)
+
+15. Measure execution time with `time cat example.txt > /dev/null`.
+
+This task was implemented as shown in the image below.
+![](./img/5-015-time.png)
+
